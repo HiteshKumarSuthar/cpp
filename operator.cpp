@@ -38,7 +38,7 @@ int main() {
 
     cout<<endl;
     
-    //Logocal Operators
+    //Logical Operators
     cout<<"Following are the logocal operators in C++"<<endl;
 
     cout<<"The value is logical AND operator ((a==b) && (a<b)) : "<<((a==b) && (a<b))<<endl; //AND
