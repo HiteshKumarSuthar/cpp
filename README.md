@@ -51,7 +51,7 @@ This repository is continuously updated as I learn new topics and solve more pro
 
 Feel free to explore the repository, suggest improvements, or use these programs for learning and practice.
 
-
+---
 
 ### ⭐ Consistency is the key to mastering programming.
 
