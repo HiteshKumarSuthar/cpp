@@ -50,19 +50,19 @@
 
 
 /*----ENUMS----*/
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-int main(){
-    enum Subject{python, java, react};
-    Subject.s1 = react;
-    Subject.s2 = python;
-    cout<<python<<endl;
-    cout<<s1<<endl;
-    cout<<s2;
+// int main(){
+//     enum Subject{python, java, react};
+//     Subject s1 = react;
+//     Subject s2 = python;
+//     cout<<python<<endl;
+//     cout<<s1<<endl;
+//     cout<<s2;
 
 
-    return 0;
-}
+//     return 0;
+// }
 
- 
+
