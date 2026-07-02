@@ -24,7 +24,7 @@
 //     return 0;
 // }
 
-//Struct-example
+//Struct-parctice-que
 // #include<iostream>
 // using namespace std;
 
@@ -82,7 +82,7 @@
 //     return 0;
 // }
 
-//Union-example
+//Union-practice-que
 
 // #include<iostream>
 // using namespace std;
@@ -126,7 +126,7 @@
 //     return 0;
 // }
 
-//Enum-exmaple
+//Enum-parctice-que
 
 #include<iostream>
 using namespace std;
