@@ -1,4 +1,4 @@
-/*----STRUCTURES----*/
+/*----STRUCTURES (struct)----*/
 // #include<iostream>
 // using namespace std;
 
@@ -24,8 +24,42 @@
 //     return 0;
 // }
 
+//Struct-example
+// #include<iostream>
+// using namespace std;
+
+// struct student //User-defined data type (struct)
+// {
+//     string name;
+//     int age;
+//     float marks;
+// };
+// int main(){
+//     student s1; //Object (You can create multiple objects.)
+//     s1.name = "Hitesh";
+//     s1.age = 19;
+//     s1.marks = 7.5;
+
+//     cout<<"Name is : "<<s1.name<<endl;
+//     cout<<"Age is : "<<s1.age<<endl;
+//     cout<<"Marks is : "<<s1.marks<<endl;
+
+//     student s2;
+//     s2.name = "Hitesh";
+//     s2.age = 19;
+//     s2.marks = 7.5;
+
+//     cout<<"Name is : "<<s2.name<<endl;
+//     cout<<"Age is : "<<s2.age<<endl;
+//     cout<<"Marks is : "<<s2.marks<<endl;
+
+//     return 0;
+// }
+
 
 /*----UNION----*/
+//A union in C++ is a user-defined data type in which all members share the same memory location. Only one member can hold a valid value at a time, making unions memory-efficient.
+
 // #include<iostream>
 // using namespace std;
 
@@ -48,8 +82,35 @@
 //     return 0;
 // }
 
+//Union-example
+
+// #include<iostream>
+// using namespace std;
+// union data
+// { 
+//     int number;
+//     float marks;
+//     char  grade;
+// };
+
+// int main(){
+//     data d;
+//     d.number = 11;
+//     cout<<"Number is : "<<d.number<<endl;
+
+//     d.marks = 90;
+//     cout<<"Marks is : "<<d.marks<<endl;
+
+//     d.grade = 'A';
+//     cout<<"Marks is : "<<d.marks<<endl; //Number ki value overwrite ho gyi aur ye output garbage ya unexpected ho skta hai.
+//     cout<<"Grade is : "<<d.grade<<endl;
+
+//     return 0;
+// }
+
 
 /*----ENUMS----*/
+//An enum (enumeration) in C++ is a user-defined data type that defines a set of named integral constants, making code more readable and easier to maintain.
 // #include<iostream>
 // using namespace std;
 
@@ -65,4 +126,22 @@
 //     return 0;
 // }
 
+//Enum-exmaple
 
+#include<iostream>
+using namespace std;
+enum program{
+    python,
+    java,
+    html,
+    css,
+    react,
+    data,
+};
+int main()
+{
+    program code = react;
+    program mycode = python;
+    cout<<code<<endl<<mycode;
+    return 0;
+}
