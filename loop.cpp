@@ -1,8 +1,8 @@
-#include <iostream>
-#include <math.h>
-using namespace std;
+// #include <iostream>
+// #include <math.h>
+// using namespace std;
 
-int main() {
+// int main() {
     /*Type of Loop in C++
     1. For loop
     2. While loop
@@ -138,8 +138,6 @@ int main() {
     // cout<<"Enter the palindrome number : "<<endl;
     // cin>>number;
 
-
-
-    return 0;
-}
+//     return 0;
+// }
 
